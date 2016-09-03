@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44625E78CDD985D71EEEC0AD /* libPods-Just For Fun v.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 321DD1E3521FEF60C7171097 /* libPods-Just For Fun v.1.0.a */; };
+		D049FE351D6992DA00BACFA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D049FE341D6992DA00BACFA3 /* main.m */; };
+		D049FE381D6992DA00BACFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D049FE371D6992DA00BACFA3 /* AppDelegate.m */; };
+		D049FE3B1D6992DA00BACFA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D049FE3A1D6992DA00BACFA3 /* ViewController.m */; };
+		D049FE3E1D6992DA00BACFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D049FE3C1D6992DA00BACFA3 /* Main.storyboard */; };
+		D049FE401D6992DA00BACFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D049FE3F1D6992DA00BACFA3 /* Assets.xcassets */; };
+		D049FE431D6992DA00BACFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D049FE411D6992DA00BACFA3 /* LaunchScreen.storyboard */; };
+		D049FE631D6D9FE900BACFA3 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = D049FE621D6D9FE900BACFA3 /* Tweet.m */; };
+		D049FE661D6DEA0200BACFA3 /* TweetDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D049FE651D6DEA0200BACFA3 /* TweetDownloadManager.m */; };
+		D049FE681D6DEB0A00BACFA3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D049FE671D6DEB0A00BACFA3 /* Podfile */; };
+		D049FE711D71EAC700BACFA3 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D049FE501D69934500BACFA3 /* NotificationCenter.framework */; };
+		D049FE751D71EAC800BACFA3 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D049FE741D71EAC800BACFA3 /* TodayViewController.m */; };
+		D049FE781D71EAC800BACFA3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D049FE761D71EAC800BACFA3 /* MainInterface.storyboard */; };
+		D049FE7C1D71EAC800BACFA3 /* Today - Just For Fun.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D049FE701D71EAC700BACFA3 /* Today - Just For Fun.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D049FE811D7AFD1B00BACFA3 /* TweetDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D049FE651D6DEA0200BACFA3 /* TweetDownloadManager.m */; };
+		D049FE821D7AFF4800BACFA3 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = D049FE621D6D9FE900BACFA3 /* Tweet.m */; };
+		F51A3C429DCA2F789FDF3132 /* libPods-Today - Just For Fun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08318D10B0EF999B4FFF0D9D /* libPods-Today - Just For Fun.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D049FE7A1D71EAC800BACFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D049FE281D6992DA00BACFA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D049FE6F1D71EAC700BACFA3;
+			remoteInfo = "Today - Just For Fun";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D049FE601D69934500BACFA3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D049FE7C1D71EAC800BACFA3 /* Today - Just For Fun.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08318D10B0EF999B4FFF0D9D /* libPods-Today - Just For Fun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Today - Just For Fun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0E682B27FD896912C87BBA /* Pods-Today - Just For Fun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Today - Just For Fun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Today - Just For Fun/Pods-Today - Just For Fun.release.xcconfig"; sourceTree = "<group>"; };
+		321DD1E3521FEF60C7171097 /* libPods-Just For Fun v.1.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Just For Fun v.1.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D6ED071D78783943B0ED44 /* Pods-Just For Fun v.1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Just For Fun v.1.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Just For Fun v.1.0/Pods-Just For Fun v.1.0.release.xcconfig"; sourceTree = "<group>"; };
+		67937BB3A02AB8300A764E3C /* Pods-Just For Fun v.1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Just For Fun v.1.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Just For Fun v.1.0/Pods-Just For Fun v.1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		A70F14D8E9D46F61EA3BFDFF /* Pods-Today - Just For Fun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Today - Just For Fun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Today - Just For Fun/Pods-Today - Just For Fun.debug.xcconfig"; sourceTree = "<group>"; };
+		D049FE301D6992DA00BACFA3 /* Just For Fun v.1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just For Fun v.1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D049FE341D6992DA00BACFA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D049FE361D6992DA00BACFA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D049FE371D6992DA00BACFA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D049FE391D6992DA00BACFA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D049FE3A1D6992DA00BACFA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D049FE3D1D6992DA00BACFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D049FE3F1D6992DA00BACFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D049FE421D6992DA00BACFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D049FE441D6992DA00BACFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D049FE501D69934500BACFA3 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		D049FE611D6D9FE900BACFA3 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tweet.h; path = ../Tweet.h; sourceTree = "<group>"; };
+		D049FE621D6D9FE900BACFA3 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tweet.m; path = ../Tweet.m; sourceTree = "<group>"; };
+		D049FE641D6DEA0200BACFA3 /* TweetDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TweetDownloadManager.h; path = ../TweetDownloadManager.h; sourceTree = "<group>"; };
+		D049FE651D6DEA0200BACFA3 /* TweetDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TweetDownloadManager.m; path = ../TweetDownloadManager.m; sourceTree = "<group>"; };
+		D049FE671D6DEB0A00BACFA3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D049FE701D71EAC700BACFA3 /* Today - Just For Fun.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Today - Just For Fun.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D049FE731D71EAC800BACFA3 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		D049FE741D71EAC800BACFA3 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		D049FE771D71EAC800BACFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D049FE791D71EAC800BACFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D049FE2D1D6992DA00BACFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44625E78CDD985D71EEEC0AD /* libPods-Just For Fun v.1.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D049FE6D1D71EAC700BACFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D049FE711D71EAC700BACFA3 /* NotificationCenter.framework in Frameworks */,
+				F51A3C429DCA2F789FDF3132 /* libPods-Today - Just For Fun.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D049FE271D6992D900BACFA3 = {
+			isa = PBXGroup;
+			children = (
+				D049FE671D6DEB0A00BACFA3 /* Podfile */,
+				D049FE321D6992DA00BACFA3 /* Just For Fun v.1.0 */,
+				D049FE721D71EAC800BACFA3 /* Today - Just For Fun */,
+				D049FE4F1D69934500BACFA3 /* Frameworks */,
+				D049FE311D6992DA00BACFA3 /* Products */,
+				F8B8262DF12D124E3F870C03 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D049FE311D6992DA00BACFA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D049FE301D6992DA00BACFA3 /* Just For Fun v.1.0.app */,
+				D049FE701D71EAC700BACFA3 /* Today - Just For Fun.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D049FE321D6992DA00BACFA3 /* Just For Fun v.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D049FE361D6992DA00BACFA3 /* AppDelegate.h */,
+				D049FE371D6992DA00BACFA3 /* AppDelegate.m */,
+				D049FE391D6992DA00BACFA3 /* ViewController.h */,
+				D049FE3A1D6992DA00BACFA3 /* ViewController.m */,
+				D049FE611D6D9FE900BACFA3 /* Tweet.h */,
+				D049FE621D6D9FE900BACFA3 /* Tweet.m */,
+				D049FE641D6DEA0200BACFA3 /* TweetDownloadManager.h */,
+				D049FE651D6DEA0200BACFA3 /* TweetDownloadManager.m */,
+				D049FE3C1D6992DA00BACFA3 /* Main.storyboard */,
+				D049FE3F1D6992DA00BACFA3 /* Assets.xcassets */,
+				D049FE411D6992DA00BACFA3 /* LaunchScreen.storyboard */,
+				D049FE441D6992DA00BACFA3 /* Info.plist */,
+				D049FE331D6992DA00BACFA3 /* Supporting Files */,
+			);
+			path = "Just For Fun v.1.0";
+			sourceTree = "<group>";
+		};
+		D049FE331D6992DA00BACFA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D049FE341D6992DA00BACFA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D049FE4F1D69934500BACFA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D049FE501D69934500BACFA3 /* NotificationCenter.framework */,
+				321DD1E3521FEF60C7171097 /* libPods-Just For Fun v.1.0.a */,
+				08318D10B0EF999B4FFF0D9D /* libPods-Today - Just For Fun.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D049FE721D71EAC800BACFA3 /* Today - Just For Fun */ = {
+			isa = PBXGroup;
+			children = (
+				D049FE731D71EAC800BACFA3 /* TodayViewController.h */,
+				D049FE741D71EAC800BACFA3 /* TodayViewController.m */,
+				D049FE761D71EAC800BACFA3 /* MainInterface.storyboard */,
+				D049FE791D71EAC800BACFA3 /* Info.plist */,
+			);
+			path = "Today - Just For Fun";
+			sourceTree = "<group>";
+		};
+		F8B8262DF12D124E3F870C03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67937BB3A02AB8300A764E3C /* Pods-Just For Fun v.1.0.debug.xcconfig */,
+				33D6ED071D78783943B0ED44 /* Pods-Just For Fun v.1.0.release.xcconfig */,
+				A70F14D8E9D46F61EA3BFDFF /* Pods-Today - Just For Fun.debug.xcconfig */,
+				1D0E682B27FD896912C87BBA /* Pods-Today - Just For Fun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D049FE2F1D6992DA00BACFA3 /* Just For Fun v.1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D049FE471D6992DA00BACFA3 /* Build configuration list for PBXNativeTarget "Just For Fun v.1.0" */;
+			buildPhases = (
+				CA9AEDA8EF3B7C37F529FB59 /* [CP] Check Pods Manifest.lock */,
+				D049FE2C1D6992DA00BACFA3 /* Sources */,
+				D049FE2D1D6992DA00BACFA3 /* Frameworks */,
+				D049FE2E1D6992DA00BACFA3 /* Resources */,
+				D049FE601D69934500BACFA3 /* Embed App Extensions */,
+				6145A7E5DCE8D8FC13EF8B40 /* [CP] Embed Pods Frameworks */,
+				90646827FBF4523B79990EB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D049FE7B1D71EAC800BACFA3 /* PBXTargetDependency */,
+			);
+			name = "Just For Fun v.1.0";
+			productName = "Just For Fun v.1.0";
+			productReference = D049FE301D6992DA00BACFA3 /* Just For Fun v.1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D049FE6F1D71EAC700BACFA3 /* Today - Just For Fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D049FE7D1D71EAC800BACFA3 /* Build configuration list for PBXNativeTarget "Today - Just For Fun" */;
+			buildPhases = (
+				84F1583E9F9E841CD448D579 /* [CP] Check Pods Manifest.lock */,
+				D049FE6C1D71EAC700BACFA3 /* Sources */,
+				D049FE6D1D71EAC700BACFA3 /* Frameworks */,
+				D049FE6E1D71EAC700BACFA3 /* Resources */,
+				5B7E8BCE94F018BBF602B018 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Today - Just For Fun";
+			productName = "Today - Just For Fun";
+			productReference = D049FE701D71EAC700BACFA3 /* Today - Just For Fun.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D049FE281D6992DA00BACFA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "CompanyYamkovyiBrother's";
+				TargetAttributes = {
+					D049FE2F1D6992DA00BACFA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EG6G8QKR4H;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					D049FE6F1D71EAC700BACFA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2DA83SZBD3;
+					};
+				};
+			};
+			buildConfigurationList = D049FE2B1D6992DA00BACFA3 /* Build configuration list for PBXProject "Just For Fun v.1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D049FE271D6992D900BACFA3;
+			productRefGroup = D049FE311D6992DA00BACFA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D049FE2F1D6992DA00BACFA3 /* Just For Fun v.1.0 */,
+				D049FE6F1D71EAC700BACFA3 /* Today - Just For Fun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D049FE2E1D6992DA00BACFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D049FE681D6DEB0A00BACFA3 /* Podfile in Resources */,
+				D049FE431D6992DA00BACFA3 /* LaunchScreen.storyboard in Resources */,
+				D049FE401D6992DA00BACFA3 /* Assets.xcassets in Resources */,
+				D049FE3E1D6992DA00BACFA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D049FE6E1D71EAC700BACFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D049FE781D71EAC800BACFA3 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B7E8BCE94F018BBF602B018 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Today - Just For Fun/Pods-Today - Just For Fun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6145A7E5DCE8D8FC13EF8B40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Just For Fun v.1.0/Pods-Just For Fun v.1.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F1583E9F9E841CD448D579 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90646827FBF4523B79990EB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Just For Fun v.1.0/Pods-Just For Fun v.1.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9AEDA8EF3B7C37F529FB59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D049FE2C1D6992DA00BACFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D049FE3B1D6992DA00BACFA3 /* ViewController.m in Sources */,
+				D049FE381D6992DA00BACFA3 /* AppDelegate.m in Sources */,
+				D049FE351D6992DA00BACFA3 /* main.m in Sources */,
+				D049FE631D6D9FE900BACFA3 /* Tweet.m in Sources */,
+				D049FE661D6DEA0200BACFA3 /* TweetDownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D049FE6C1D71EAC700BACFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D049FE821D7AFF4800BACFA3 /* Tweet.m in Sources */,
+				D049FE751D71EAC800BACFA3 /* TodayViewController.m in Sources */,
+				D049FE811D7AFD1B00BACFA3 /* TweetDownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D049FE7B1D71EAC800BACFA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D049FE6F1D71EAC700BACFA3 /* Today - Just For Fun */;
+			targetProxy = D049FE7A1D71EAC800BACFA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D049FE3C1D6992DA00BACFA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D049FE3D1D6992DA00BACFA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D049FE411D6992DA00BACFA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D049FE421D6992DA00BACFA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D049FE761D71EAC800BACFA3 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D049FE771D71EAC800BACFA3 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D049FE451D6992DA00BACFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D049FE461D6992DA00BACFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D049FE481D6992DA00BACFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67937BB3A02AB8300A764E3C /* Pods-Just For Fun v.1.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Just For Fun v.1.0/Just For Fun v.1.0.entitlements";
+				INFOPLIST_FILE = "Just For Fun v.1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CYB.Just-For-Fun-v-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D049FE491D6992DA00BACFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D6ED071D78783943B0ED44 /* Pods-Just For Fun v.1.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Just For Fun v.1.0/Just For Fun v.1.0.entitlements";
+				INFOPLIST_FILE = "Just For Fun v.1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CYB.Just-For-Fun-v-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D049FE7E1D71EAC800BACFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70F14D8E9D46F61EA3BFDFF /* Pods-Today - Just For Fun.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Today - Just For Fun/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CYB.Just-For-Fun-v-1-0.Today---Just-For-Fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D049FE7F1D71EAC800BACFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0E682B27FD896912C87BBA /* Pods-Today - Just For Fun.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Today - Just For Fun/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CYB.Just-For-Fun-v-1-0.Today---Just-For-Fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D049FE2B1D6992DA00BACFA3 /* Build configuration list for PBXProject "Just For Fun v.1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D049FE451D6992DA00BACFA3 /* Debug */,
+				D049FE461D6992DA00BACFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D049FE471D6992DA00BACFA3 /* Build configuration list for PBXNativeTarget "Just For Fun v.1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D049FE481D6992DA00BACFA3 /* Debug */,
+				D049FE491D6992DA00BACFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D049FE7D1D71EAC800BACFA3 /* Build configuration list for PBXNativeTarget "Today - Just For Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D049FE7E1D71EAC800BACFA3 /* Debug */,
+				D049FE7F1D71EAC800BACFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D049FE281D6992DA00BACFA3 /* Project object */;
+}
