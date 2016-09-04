@@ -517,7 +517,7 @@
 			baseConfigurationReference = 67937BB3A02AB8300A764E3C /* Pods-Just For Fun v.1.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Just For Fun v.1.0/Just For Fun v.1.0.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = "Just For Fun v.1.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CYB.Just-For-Fun-v-1-0";
@@ -530,7 +530,7 @@
 			baseConfigurationReference = 33D6ED071D78783943B0ED44 /* Pods-Just For Fun v.1.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Just For Fun v.1.0/Just For Fun v.1.0.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = "Just For Fun v.1.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CYB.Just-For-Fun-v-1-0";
